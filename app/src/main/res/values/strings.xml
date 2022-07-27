@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Training Smart Patrol</string>
+    <string name="titile_activity_relative">Layout Relative</string>
+    <string name="titile_activity_linear">Layout Linear</string>
+    <string name="titile_activity_grid">Grid Linear</string>
+    <string name="text_desc">Training Tentang Aplikasi Smart Patrol Lorem Ipsum</string>
+</resources>
