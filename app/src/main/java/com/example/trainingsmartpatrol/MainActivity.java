@@ -8,7 +8,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnlink_relative,btnlink_linear,btnlink_grid;
+    Button btnlink_relative,
+            btnlink_linear,
+            btnlink_grid,
+            btn_scrolling;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnlink_relative = (Button) findViewById(R.id.btn_relative);
         btnlink_linear = (Button) findViewById(R.id.btn_linear);
         btnlink_grid = (Button) findViewById(R.id.btn_grid);
+        btn_scrolling = (Button) findViewById(R.id.btn_scrolling);
     }
 
     public void setActions(){
@@ -44,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
                 toGridLayout(view);
             }
         });
+        btn_scrolling.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                toScrolling(view);
+            }
+        });
     }
 
     public void toRelative(View view) {
@@ -60,6 +70,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void toGridLayout(View view) {
         Intent intent = new Intent(this, GridLayoutActivity.class);
+        intent.putExtra("ok","klo ada");
+        startActivity(intent);
+    }
+
+    public void toScrolling(View view){
+        Intent intent = new Intent(this, ScrollingActivity.class);
         intent.putExtra("ok","klo ada");
         startActivity(intent);
     }

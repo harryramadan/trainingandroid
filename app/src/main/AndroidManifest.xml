@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrainingSmartPatrol">
         <activity
+            android:name=".ScrollingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.TrainingSmartPatrol.NoActionBar" />
+        <activity
             android:name=".GridLayoutActivity"
             android:exported="true"
             android:label="@string/titile_activity_grid"

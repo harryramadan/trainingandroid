@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/mobile/Java/training/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
         <entry key="..\:/mobile/Java/training/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.14791666666666667" />
+        <entry key="..\:/mobile/Java/training/app/src/main/res/layout/activity_grid_layout.xml" value="0.4" />
         <entry key="..\:/mobile/Java/training/app/src/main/res/layout/activity_linear_layout.xml" value="0.25" />
         <entry key="..\:/mobile/Java/training/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/mobile/Java/training/app/src/main/res/layout/activity_relative_layout.xml" value="0.25" />
+        <entry key="..\:/mobile/Java/training/app/src/main/res/layout/activity_scrolling.xml" value="0.25" />
+        <entry key="..\:/mobile/Java/training/app/src/main/res/layout/content_scrolling.xml" value="0.12654890587925124" />
         <entry key="..\:/mobile/Java/training/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14791666666666667" />
       </map>
     </option>
